@@ -1,0 +1,15 @@
+#appBody {
+  /*Preventing accidental text highlighting when mouse dragged outside of canvas*/
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#canvas {
+  flot: center;
+  border: 2px solid #888;
+  position: relative; /*might be needed for correct mouse coordination in firefox*/
+}
